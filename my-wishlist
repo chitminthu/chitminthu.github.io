@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Epic Wishlist</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>A Catalog of Essential Needs</h1>
+        <p>These aren't 'wants.' They are critical components for my survival and general happiness.</p>
+    </header>
+
+    <main id="wishlist-container">
+        <!-- Wishlist items will be dynamically generated here -->
+    </main>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <img id="modal-img" src="" alt="Wishlist Item Image">
+            <h2 id="modal-title"></h2>
+            <p id="modal-description"></p>
+            <p id="modal-why"></p>
+            <a id="modal-buy-link" href="#" target="_blank" class="buy-button">Buy Now!</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
